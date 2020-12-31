@@ -34,7 +34,8 @@ def sorted_matrix
   ans = Array.new
   ans.push(CONVENTIONAL_PRODUCE)
   ans.push(ORGANIC_PRODUCE)
-  return ans.sort
+  ans.sort
+  return ans
 end
 
 def matrix_lookup(matrix, row, column)
